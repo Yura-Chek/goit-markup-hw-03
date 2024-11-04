@@ -16,8 +16,44 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 ul {
   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.wraper {
+  max-width: 1440px;
+}
+
+.container {
+  max-width: 1128px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.navigat {
+  display: flex;
 }
 
 .nav {
@@ -33,6 +69,12 @@ ul {
 
 .logo-studio {
   color: #2e2f42;
+  margin-right: 76px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-list-item {
@@ -53,14 +95,18 @@ ul {
 }
 
 .contacts-link {
+  display: flex;
+}
+
+.contacts-link-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link-item:hover,
+.contacts-link-item:focus {
   color: #404bbf;
 }
 
