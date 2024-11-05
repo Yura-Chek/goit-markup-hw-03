@@ -46,7 +46,7 @@ ul {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin-left: 156px;
   margin-right: 156px;
   padding: 0 15px;
@@ -108,9 +108,9 @@ ul {
   display: flex;
 }
 
-.contacts-link {
+/* .contacts-link {
   display: flex;
-}
+} */
 
 .contacts-link-item {
   font-size: 16px;
@@ -246,6 +246,7 @@ ul {
 .section-third-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-fourth {
