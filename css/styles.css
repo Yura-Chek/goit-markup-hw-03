@@ -50,6 +50,7 @@ ul {
   margin-left: 156px;
   margin-right: 156px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -105,20 +106,18 @@ ul {
 
 .contacts {
   font-style: normal;
-  display: flex;
 }
 
-/* .contacts-link {
+.contacts-link {
   display: flex;
-} */
+  gap: 40px;
+}
 
 .contacts-link-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: flex;
-  gap: 40px;
 }
 
 .contacts-link-item:hover,
