@@ -49,6 +49,7 @@ ul {
   max-width: 1158px;
   margin-left: 156px;
   margin-right: 156px;
+  padding: 0 15px;
 }
 
 .header {
@@ -58,12 +59,6 @@ ul {
 .navigat {
   display: flex;
   align-items: center;
-}
-
-.container-navigat {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .nav-menu {
